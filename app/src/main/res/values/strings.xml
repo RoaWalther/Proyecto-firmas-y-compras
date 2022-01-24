@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Online Pay</string>
+    <string name="welcome_login">Bienvenido/a</string>
+    <string name="join_continue">Ingresa para continuar</string>
+    <string name="user">Usuario:</string>
+    <string name="password">Clave:</string>
+    <string name="join">I N G R E S A R</string>
+    <string name="infoApp">V1.0 0522</string>
+    <string name="generate_pay">Generar Pago</string>
+    <string name="user_list">Lista Usuarios</string>
+    <string name="register">Registrar</string>
+    <string name="register_user">Registrar Usuario</string>
+    <string name="join_data">Ingresa los datos del nuevo usuario</string>
+    <string name="document">Id:</string>
+    <string name="register_button">R E G I S T R A R</string>
+    <string name="name">Nombre:</string>
+    <string name="cell_phone">Celular:</string>
+    <string name="re_password">Confirmar clave:</string>
+    <string name="users_list">Usuarios Registrados</string>
+    <string name="paint_sign">Dibuja tu firma</string>
+    <string name="new_sign">Nueva Firma</string>
+    <string name="save_continue">Guardar y continuar</string>
+    <string name="send_sing">Dibuja tu firma aquí</string>
+    <string name="success_pay">¡Pago Exitoso!</string>
+    <string name="print">Este es tu recibo de pago</string>
+    <string name="name_vendedor">Vendedor:</string>
+    <string name="data_vendedor">Datos Vendedor</string>
+    <string name="comercio">Uniciencia Pagos</string>
+    <string name="celular">Celular:</string>
+    <string name="documento">Id:</string>
+    <string name="data_pay">Datos Compra</string>
+    <string name="valor">Valor:</string>
+    <string name="iva">IVA:</string>
+    <string name="total">Total:</string>
+    <string name="firma">Firma:</string>
+    <string name="finalizar">Finalizar</string>
+</resources>

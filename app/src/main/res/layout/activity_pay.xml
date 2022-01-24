@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    tools:context=".activity.PayActivity">
+
+    <TextView
+        android:id="@+id/Etiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout"
+        android:layout_marginBottom="14dp"
+        android:height="100dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/text_cal"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:rowCount="6">
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="C"
+            android:onClick="btnLimpiar"
+            android:textColor="@color/orange_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="/"
+            android:onClick="btnDividir"
+            android:textColor="@color/orange_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="X"
+            android:onClick="btnMultiplicar"
+            android:textColor="@color/orange_cal" />
+
+        <Button
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="Borrar"
+            android:onClick="btnBorrar"
+            android:textColor="@color/orange_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="7"
+            android:onClick="btnSiete"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="8"
+            android:onClick="btnOcho"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="9"
+            android:onClick="btnNueve"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="-"
+            android:onClick="btnResta"
+            android:textColor="@color/orange_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="4"
+            android:onClick="btnCuatro"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="5"
+            android:onClick="btnCinco"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="6"
+            android:onClick="btnSeis"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="+"
+            android:layout_gravity="fill"
+            android:onClick="btnSuma"
+            android:textColor="@color/orange_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="1"
+            android:onClick="btnUno"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="2"
+            android:onClick="btnDos"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="3"
+            android:onClick="btnTres"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:layout_rowSpan="2"
+            android:background="@color/background_cal"
+            android:text="="
+            android:onClick="btnIgual"
+            android:textColor="@color/orange_cal" />
+
+        <Button
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="0"
+            android:onClick="btnCero"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:id="@+id/Punto"
+            android:layout_margin="2dp"
+            android:background="@color/background_cal"
+            android:text="."
+            android:onClick="btnPunto"
+            android:textColor="@color/white_cal" />
+
+        <Button
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill"
+            android:layout_margin="2dp"
+            android:background="@color/orange_cal"
+            android:text="Generar Pago"
+            android:textStyle="bold"
+            android:onClick="btnGenerarPago"
+            android:textColor="@color/white_cal" />
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FCD770</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF826E</color>
+    <color name="colorPrimaryYellow">#FCD770</color>
+
+    <color name="backButton">#D6D7D7</color>
+    <color name="blue_grey_200">#B0BEC5</color>
+    <color name="blue_grey_300">#90A4AE</color>
+    <color name="blue_grey_800">#37474F</color>
+
+    <!-- Calculadora -->
+    <color name="background_main">#212121</color>
+    <color name="text_cal">#F5F5F5</color>
+    <color name="white_cal">#FF5722</color>
+    <color name="orange_cal">#FCD770</color>
+    <!--<color name="orange_cal">#FF5722</color>-->
+    <color name="background_cal">#424242</color>
+
+</resources>
